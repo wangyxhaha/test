@@ -2,7 +2,10 @@
 using namespace std;
 
 int main(){
-	printf("Just a test...\nHello World!\n");
+	int n;
+	printf("Just a test...\nHello World!\nPlease input a number.\n");
+	scanf("%d",&n);
+	printf("%d\n",n);
 	return 0;
 }
 
